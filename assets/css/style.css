@@ -54,7 +54,7 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: "Open Sans", arial, sans-serif;
 	text-rendering: optimizeLegibility;
 	color: #f03838;
 }
@@ -104,7 +104,7 @@ ol > li:before {
 	position: absolute;
 	width: 1.5em;
 	margin-left: -2em;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: "Open Sans", arial, sans-serif;
 	font-size: 1em;
 	font-weight: 500;
 	line-height: 1.5em;
@@ -285,7 +285,7 @@ table td {
     border: 1px solid #ebe9e6;
 }
 table th {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: "Open Sans", arial, sans-serif;
 	font-weight: 500;
 	font-size: 0.75em;
 	line-height: 1.25em;
@@ -418,7 +418,7 @@ img {
 	z-index: 10;
 	margin: 0;
 	padding: 0;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: "Open Sans", arial, sans-serif;
 	font-weight: 700;
 	font-size: 2em;
 	line-height: 1em;
@@ -484,7 +484,7 @@ img {
 	margin-bottom: 1em;
 	padding: 0.5em 1.25em;
 	border: 1px solid #c2c7cc;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: "Open Sans", arial, sans-serif;
 	font-size: 0.75em;
 	line-height: 1.666em;
 	text-shadow: none;
@@ -539,7 +539,7 @@ img {
 	z-index: 400;
 	overflow: hidden;
 	opacity: 0;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: "Open Sans", arial, sans-serif;
 	-webkit-transition: opacity ease .4s;
 	transition: opacity ease .4s;
 }
@@ -683,7 +683,7 @@ img {
 #footer {
 	position: relative;
 	z-index: 20;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: "Open Sans", arial, sans-serif;
 	line-height: 1em;
 	padding-bottom: 6em;
 }
@@ -875,7 +875,7 @@ img {
 	z-index: 10;
 	display: block;
 	margin-bottom: 1.333em;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: "Open Sans", arial, sans-serif;
 	font-size: 0.75em;
 	font-weight: 400;
 	line-height: 1.333em;
@@ -964,7 +964,7 @@ img {
 .post-tags {
 	max-width: 75%;
 	float: left;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: "Open Sans", arial, sans-serif;
 }
 .post-tags a {
 	display: inline-block;
@@ -1021,7 +1021,7 @@ img {
 }
 .post-author-bio {
 	padding-left: 25%;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: "Open Sans", arial, sans-serif;
     font-size: 0.75em;
     line-height: 1.333em;
 }
@@ -1088,7 +1088,7 @@ img {
 	margin: 0;
 	padding: 0.5em 1.25em;
 	border: 1px solid #c2c7cc;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: "Open Sans", arial, sans-serif;
 	font-size: 0.75em;
 	line-height: 1.333em;
 	color: #8a9199;
@@ -1118,7 +1118,7 @@ img {
 	height: 2em;
 	margin: 0;
 	padding: 2em 0;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: "Open Sans", arial, sans-serif;
 }
 .pagination:after {
 	position: absolute;
