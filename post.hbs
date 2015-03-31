@@ -15,17 +15,17 @@
 			</span>
 			{{else}}
 			<span id="home-button" class="nav-button">
-				<a class="home-button" href="{{@blog.url}}" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+				<a class="home-button" href="{{@blog.url}}" title="Pàgina inicial"><i class="ic ic-arrow-left"></i> Inici</a>
 			</span>
 			{{/if}}
 			{{#if @blog.navigation}}
 			<span id="menu-button" class="nav-button">
-				<a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
+				<a class="menu-button"><i class="ic ic-menu"></i> Menú</a>
 			</span>
 			{{/if}}
 		</nav>
 		<h1 class="post-title">{{{title}}}</h1>
-		<span class="post-meta">{{author}} | <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time></span>
+		<span class="post-meta">{{author}} | <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD \d\e MMM \d\e YYYY"}}</time></span>
 		{{#if image}}<div class="post-cover cover" style="background-image: url('{{image}}');"></div>{{/if}}
 	</div>
 </header>
@@ -75,7 +75,7 @@
 							<span class="post-author-location"><i class="ic ic-location"></i> {{location}}</span>
 						{{/if}}
 						{{#if website}}
-							<span class="post-author-website"><a href="{{website}}"><i class="ic ic-link"></i> Website</a></span>
+							<span class="post-author-website"><a href="{{website}}"><i class="ic ic-link"></i> Pàgina web</a></span>
 						{{/if}}
 					</div>
 					<div class="clear"></div>
@@ -86,7 +86,7 @@
 			
 
 			<section class="post-comments">
-				<a id="show-disqus" class="post-comments-activate">Show Comments</a>
+				<a id="show-disqus" class="post-comments-activate">Mostra els comentaris</a>
 			    <div id="disqus_thread"></div>
 
 			</section>
